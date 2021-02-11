@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+/* reset css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100vh; /*OCUPA SEMPRE TODA A TELA*/
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* cores 
+#E57F68 - rosa escuro
+#E98988 - rosa claro
+#EB8C85 - rosa mais claro
+
+#B3CABD - verde claro
+#1C1D18 - cor do tirulo
+#F5F6F0 - cor de fundo 
+*/

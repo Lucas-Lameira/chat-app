@@ -1,0 +1,97 @@
+@import './global.css';
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+main aside#users-on{ 
+  height: 100%;
+  width: 20%;   
+
+  background-color: #E57F68;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+main aside#users-on #aside-content{
+  width: 100%;
+  background-color: black;
+  color: #FFF;
+}
+
+main aside#users-on #aside-content
+
+
+main aside#users-on ul li{
+  list-style: none;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+
+main #chat-section {
+  height: 100%;
+  background-color: orange;
+  width: 80%;
+  
+}
+
+main #chat-section #chat-field{
+  background-color: white;
+  height: 90%;
+  padding: 2rem;
+}
+
+main #chat-section #chat-form{
+  height: 10%;
+  background-color: #E98988;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #chat-section #chat-form input{
+  width: 80%;
+  height: 60%;
+  padding: 1rem;
+
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+}
+
+main #chat-section #chat-form button{
+  width: 6rem;
+  height: 6rem;
+  margin: 2rem;  
+  background-color: #E57F68;    
+  
+  border-radius: 100%;
+}
+
+
+
+/* CSS DA CAIXA QUE CONTEM AS MENSAGENS */
+
+main #chat-section #chat-field div.box-message{
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  line-height: 2.3rem;
+
+  background-color: #B3CABD ;
+  border-radius: 0.8rem;
+  width: 90%;
+  margin: 0rem 1rem 2rem 1rem;
+  padding: 1.5rem;
+}
+
+
+main #chat-section #chat-field div.box-message strong p{
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+}
