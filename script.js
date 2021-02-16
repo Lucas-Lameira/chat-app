@@ -1,4 +1,4 @@
-// client side js
+// client side js - frontend js
 
 //defaults to trying to connect to the host that serves the page.
 let socket = io();
