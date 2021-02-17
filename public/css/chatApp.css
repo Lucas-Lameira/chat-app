@@ -119,6 +119,8 @@ main #chat-section {
 main #chat-section #chat-field{  
   height: 88%;
   padding: 2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 main #chat-section #chat-form{

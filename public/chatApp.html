@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/chatApp.css">
-  <title>chat app </title>
+  <title>Chat app using socket.io - implementing tutorial</title>
 </head>
 <body>
   <main >
@@ -44,7 +44,8 @@
 
     <section id="chat-section">
       <section id="chat-field">
-         <div class="box-message" >
+         
+        <div class="box-message" >
           <strong>
             <p>Lucas lameira - <span>14:58pm</span></p>
           </strong>
@@ -62,8 +63,14 @@
         </div> 
       </section>
       
-      <form action="" id="chat-form">
-        <input type="text" placeholder="Type something...">
+      <form id="chat-form">
+        <input 
+          type="text" 
+          placeholder="Type something..." 
+          id="text-message" 
+          required
+          autofocus
+        >
         <button>
           <img src="assets/icons/send.svg" alt="">
         </button>
@@ -71,5 +78,9 @@
     </section>
   </main>
 
+  <!-- frontend library -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- access io from the frontend library -->
+  <script src="./js/script.js"></script>
 </body>
 </html>

@@ -2,8 +2,17 @@
   "name": "chat-app",
   "version": "0.0.1",
   "description": "chat app using socketio, i am following the example on their web page",
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^3.1.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Lucas de S. Lameira"
 }
