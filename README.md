@@ -1,5 +1,11 @@
 # chatp-app
 chat app using node.js and socket.io
+
+## Make it work 
+- npm run dev 
+- access localhos:3000
+- two tabs talk to each other XD
+- 
 # home work
 [ ] - adcast a message to connected users when someone connects or disconnects.
 [ ] - Add support for nicknames.
